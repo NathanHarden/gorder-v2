@@ -8,13 +8,13 @@ require (
 	github.com/NathanHarden/gorder-v2/common v0.0.0-00010101000000-000000000000
 	github.com/gin-gonic/gin v1.10.0
 	github.com/oapi-codegen/runtime v1.1.1
+	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/viper v1.20.0
 )
 
 require (
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0 // indirect
-	github.com/sirupsen/logrus v1.9.3 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250115164207-1a7da9e5054f // indirect
 )
 
@@ -56,6 +56,6 @@ require (
 	golang.org/x/sys v0.29.0 // indirect
 	golang.org/x/text v0.21.0 // indirect
 	google.golang.org/grpc v1.71.0
-	google.golang.org/protobuf v1.36.4 // indirect
+	google.golang.org/protobuf v1.36.4
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
