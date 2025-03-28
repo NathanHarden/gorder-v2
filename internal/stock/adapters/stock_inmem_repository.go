@@ -2,13 +2,10 @@ package adapters
 
 import (
 	"context"
-	"strconv"
 	"sync"
-	"time"
 
 	"github.com/NathanHarden/gorder-v2/common/genproto/orderpb"
 	domain "github.com/NathanHarden/gorder-v2/stock/domain/stock"
-	"github.com/sirupsen/logrus"
 )
 
 type MemoryStockRepository struct{

@@ -6,6 +6,7 @@ replace github.com/NathanHarden/gorder-v2/common => ../common
 
 require (
 	github.com/NathanHarden/gorder-v2/common v0.0.0-00010101000000-000000000000
+	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/viper v1.20.0
 	google.golang.org/grpc v1.67.3
 )
@@ -34,7 +35,6 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.3 // indirect
 	github.com/sagikazarmark/locafero v0.7.0 // indirect
-	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/sourcegraph/conc v0.3.0 // indirect
 	github.com/spf13/afero v1.12.0 // indirect
 	github.com/spf13/cast v1.7.1 // indirect
